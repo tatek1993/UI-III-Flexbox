@@ -63,4 +63,13 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+.navigation{
+	display: flex;
+	justify-content: space-between;
+}
+.navSpan{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+}
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
