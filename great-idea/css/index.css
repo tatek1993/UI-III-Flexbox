@@ -70,6 +70,29 @@ h1, h2, h3, h4, h5 {
 .navSpan{
 	width: 70%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+}
+h1{
+	text-align: center;
+	font-size: 70px;
+}
+header span{
+	padding: 2px 30px 2px 30px;
+	border: 2px solid black;
+	
+}
+#innovationText{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#innovationText h1, span{
+	margin: 20px;
+}
+.headerItems{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
 }
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
