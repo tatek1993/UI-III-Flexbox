@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 3px solid red;
 }
 
 html, body {
@@ -62,15 +63,25 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
+/* Navigation */
 .navigation{
 	display: flex;
 	justify-content: space-between;
 }
 .navSpan{
-	width: 70%;
+	width: 80%;
 	display: flex;
 	justify-content: space-around;
+}
+
+/* Header */
+
+header{
+	border-bottom: 2px solid black;
+	padding: 5% 0%;
 }
 h1{
 	text-align: center;
@@ -81,6 +92,8 @@ header span{
 	border: 2px solid black;
 	
 }
+
+
 #innovationText{
 	display: flex;
 	flex-direction: column;
@@ -93,6 +106,65 @@ header span{
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	
+}
+
+/* Features and About */
+
+.contentOne{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 5% 0%;
+}
+#features {
+	width: 45%
+	
+}
+
+#about{
+	width: 45%;
+}
+
+h4 {
+	font-size: 20px;
+	padding: 2% 0%;
+}
+
+/* middle image */
+
+.middle-img{
+	width: 100%;
+}
+
+/* Services, product and vision */
+
+.contentTwo div{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 5% 0%;
+}
+.contentTwo{
+	border-bottom: 2px solid black;
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+
+body{
+	margin: 5% 5% 8% 5%;
+}
+footer {
+	margin-top: 5%;
+	margin-bottom: 8%;
+	text-align: center;
 
 }
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* contact */
+
+.contact address, p{
+	padding: 8px 0px;
+}
+
